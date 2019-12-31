@@ -1,0 +1,9 @@
+'アプリケーション開始時
+Sub Application_OnStart
+  Session("a") = "b"
+End Sub
+
+'アプリケーション終了時
+Sub Application_OnEnd
+
+End Sub
