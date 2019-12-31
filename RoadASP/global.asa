@@ -1,18 +1,20 @@
-<SCRIPT LANGUAGE=VBScript RUNAT=Server> 
+<SCRIPT language="VBScript" runat="server">
 'アプリケーション開始時
 Sub Application_OnStart
-  Session("a") = "b"
+
 End Sub
 
 'アプリケーション終了時
 Sub Application_OnEnd
-  Session("a") = "b"
+
 End Sub
 
+'セッション開始時
 Sub Session_OnStart
 
 End Sub
 
+'セッション終了時
 Sub Session_OnEnd
 
 End Sub
