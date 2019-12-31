@@ -1,3 +1,4 @@
+<SCRIPT LANGUAGE=VBScript RUNAT=Server> 
 'アプリケーション開始時
 Sub Application_OnStart
   Session("a") = "b"
@@ -5,5 +6,15 @@ End Sub
 
 'アプリケーション終了時
 Sub Application_OnEnd
+  Session("a") = "b"
+End Sub
+
+Sub Session_OnStart
 
 End Sub
+
+Sub Session_OnEnd
+
+End Sub
+
+</SCRIPT>
